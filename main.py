@@ -389,7 +389,7 @@ async def process_wish_news_press(callback: CallbackQuery, state: FSMContext):
 async def warning_not_wish_news(message: Message):
     """
     Этот хэндлер будет срабатывать, если во время согласия на получение
-    новостей будет введено/отправлено что-то некорректное
+    новостей будет введено/отправлено что-то некорректное.
 
     :param message:
     :return:
