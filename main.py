@@ -341,7 +341,7 @@ async def process_education_press(callback: CallbackQuery, state: FSMContext):
 async def warning_not_education(message: Message):
     """
     Этот хэндлер будет срабатывать, если во время выбора образования
-    будет введено/отправлено что-то некорректное
+    будет введено/отправлено что-то некорректное.
 
     :param message:
     :return:
